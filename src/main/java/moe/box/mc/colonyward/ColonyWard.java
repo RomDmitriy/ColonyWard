@@ -26,7 +26,7 @@ public class ColonyWard {
         ModConfigSpec.Builder configBuilder = new ModConfigSpec.Builder();
 
         config = new Configuration(configBuilder);
-        modContainer.registerConfig(ModConfig.Type.SERVER, configBuilder.build());
+        modContainer.registerConfig(ModConfig.Type.COMMON, configBuilder.build());
     }
 
     @SubscribeEvent
